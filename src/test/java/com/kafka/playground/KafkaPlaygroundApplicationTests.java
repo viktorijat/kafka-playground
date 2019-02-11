@@ -1,4 +1,4 @@
-package com.kafka.playground.kafkaplayground;
+package com.kafka.playground;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

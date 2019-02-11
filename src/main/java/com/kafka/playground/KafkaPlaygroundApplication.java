@@ -1,4 +1,4 @@
-package com.kafka.playground.kafkaplayground;
+package com.kafka.playground;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
