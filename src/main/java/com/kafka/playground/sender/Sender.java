@@ -1,4 +1,4 @@
-package com.kafka.playground;
+package com.kafka.playground.sender;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +14,6 @@ public class Sender {
 
     public void send(String payload) {
         LOGGER.info("sending payload='{}'", payload);
-        kafkaTemplate.send("message.t", payload);
+        kafkaTemplate.send("example.t", payload);
     }
 }

@@ -1,4 +1,4 @@
-package com.kafka.playground;
+package com.kafka.playground.sender;
 
 import java.util.HashMap;
 import java.util.Map;
